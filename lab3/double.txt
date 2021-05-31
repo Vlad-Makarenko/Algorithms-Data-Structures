@@ -1,0 +1,78 @@
+#include <stdio.h>
+
+int main() {
+    double x;
+    puts("Enter double value: ");
+    scanf("%lf", &x);
+    long k = *(long*)&x;
+    int array[64] = {0};
+    int array1[8] = {0};
+    int array2[8] = {0};
+    int array3[8] = {0};
+    int array4[8] = {0};
+    int array5[8] = {0};
+    int array6[8] = {0};
+    int array7[8] = {0};
+    int array8[8] = {0};
+
+    for(int i = sizeof(k) * 8 - 1; i >= 0; --i) {
+        array[i] = ((k >> i) & 1);
+    }
+    for(int i = 7; i >=0; i--){
+        array1[i] =  array[i + 56];
+    }
+    for(int i = 7; i >=0; i--){
+        array2[i] =  array[i + 48];
+    }
+    for(int i = 7; i >=0; i--){
+        array3[i] =  array[i + 40];
+    }
+    for(int i = 7; i >=0; i--){
+        array4[i] =  array[i + 32];
+    }
+    for(int i = 7; i >=0; i--){
+        array5[i] =  array[i + 24];
+    }
+    for(int i = 7; i >=0; i--){
+        array6[i] =  array[i + 16];
+    }
+    for(int i = 7; i >=0; i--){
+        array7[i] =  array[i + 8];
+    }
+    for(int i = 7; i >=0; i--){
+        array8[i] =  array[i];
+    }
+    for(int i = 7; i >=0; i--){
+        printf("%d", array8[i]);
+    }
+    printf(" ");
+    for(int i = 7; i >=0; i--){
+        printf("%d", array7[i]);
+    }
+    printf(" ");
+    for(int i = 7; i >=0; i--){
+        printf("%d", array6[i]);
+    }
+    printf(" ");
+    for(int i = 7; i >=0; i--){
+        printf("%d", array5[i]);
+    }
+    printf(" ");
+    for(int i = 7; i >=0; i--){
+        printf("%d", array4[i]);
+    }
+    printf(" ");
+    for(int i = 7; i >=0; i--){
+        printf("%d", array3[i]);
+    }
+    printf(" ");
+    for(int i = 7; i >=0; i--){
+        printf("%d", array2[i]);
+    }
+    printf(" ");
+    for(int i = 7; i >=0; i--){
+        printf("%d", array1[i]);
+    }
+    printf(" ");
+    return 0;
+}

@@ -1,0 +1,5 @@
+/cygdrive/d/Учеба/Алгоритмы/lab12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/Учеба/Алгоритмы/lab12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/Учеба/Алгоритмы/lab12/cmake-build-debug/CMakeFiles/lab12_SortByPairMergers.dir
+/cygdrive/d/Учеба/Алгоритмы/lab12/cmake-build-debug/CMakeFiles/lab12_PyramidSorting.dir
+/cygdrive/d/Учеба/Алгоритмы/lab12/cmake-build-debug/CMakeFiles/lab12_BitwiseDigitalSorting.dir

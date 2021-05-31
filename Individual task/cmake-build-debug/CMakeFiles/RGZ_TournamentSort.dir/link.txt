@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RGZ_TournamentSort.dir/TournamentSort.cpp.o  -o RGZ_TournamentSort 

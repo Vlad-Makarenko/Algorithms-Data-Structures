@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab12_4.dir/BitwiseDigitalSorting.cpp.o  -o lab12_4.exe -Wl,--out-implib,liblab12_4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

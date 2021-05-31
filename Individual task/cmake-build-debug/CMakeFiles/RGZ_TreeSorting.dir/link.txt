@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RGZ_TreeSorting.dir/TreeSorting.cpp.o  -o RGZ_TreeSorting 

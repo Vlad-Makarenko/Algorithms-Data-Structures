@@ -1,0 +1,7 @@
+/mnt/d/Учеба/Алгоритмы/РГЗ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/Учеба/Алгоритмы/РГЗ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Учеба/Алгоритмы/РГЗ/cmake-build-debug/CMakeFiles/RGZ_SortByPairMergers.dir
+/mnt/d/Учеба/Алгоритмы/РГЗ/cmake-build-debug/CMakeFiles/RGZ_PyramidSort.dir
+/mnt/d/Учеба/Алгоритмы/РГЗ/cmake-build-debug/CMakeFiles/RGZ_QuickSort.dir
+/mnt/d/Учеба/Алгоритмы/РГЗ/cmake-build-debug/CMakeFiles/RGZ_TreeSorting.dir
+/mnt/d/Учеба/Алгоритмы/РГЗ/cmake-build-debug/CMakeFiles/RGZ_TournamentSort.dir

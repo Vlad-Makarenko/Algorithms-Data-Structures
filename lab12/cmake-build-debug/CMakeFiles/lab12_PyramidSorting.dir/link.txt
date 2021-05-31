@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab12_PyramidSorting.dir/PyramidSorting.cpp.o  -o lab12_PyramidSorting.exe -Wl,--out-implib,liblab12_PyramidSorting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
